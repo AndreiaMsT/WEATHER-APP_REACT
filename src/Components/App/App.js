@@ -8,18 +8,12 @@ import { useState } from "react";
 function App() {
   const [cityObject, setCityObject] = useState([]);
   const [cityName, setCityName] = useState("Lisbon");
-  console.log(cityName);
-  console.log("API Key:", process.env.REACT_APP_API_KEY);
-  console.log("API URL:", process.env.REACT_APP_API_URL);
 
-  const key = process.env.REACT_APP_API_KEY;
-  const base = process.env.REACT_APP_API_KEY_URL;
   const api = {
-    key: key,
-    base: base,
+    key: "a1f85cdae8da289f667d039cb5e21acc",
+    base: "http://api.openweathermap.org/data/2.5/",
   };
 
-  console.log(key);
   return (
     <div className="App">
       <SearchBar
