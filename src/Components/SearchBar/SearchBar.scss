@@ -1,0 +1,26 @@
+.searchBar {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    &:focus{
+      border:white;
+    }
+    border-radius: 5px;
+    margin-right: 5px;
+    height: 20px;
+    max-width: 40%;
+    
+  }
+
+  button {
+    &:hover {
+      background-color: white;
+      color: rgb(179, 179, 239);
+    }
+    border-radius: 5px;
+    height: 20px;
+  }
+}
