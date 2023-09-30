@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/andreiamst.github.io/WEATHER-APP_REACT/static/css/main.abc0d947.css",
+    "main.js": "/andreiamst.github.io/WEATHER-APP_REACT/static/js/main.42efd53a.js",
+    "static/js/787.d9312eb8.chunk.js": "/andreiamst.github.io/WEATHER-APP_REACT/static/js/787.d9312eb8.chunk.js",
+    "index.html": "/andreiamst.github.io/WEATHER-APP_REACT/index.html",
+    "main.abc0d947.css.map": "/andreiamst.github.io/WEATHER-APP_REACT/static/css/main.abc0d947.css.map",
+    "main.42efd53a.js.map": "/andreiamst.github.io/WEATHER-APP_REACT/static/js/main.42efd53a.js.map",
+    "787.d9312eb8.chunk.js.map": "/andreiamst.github.io/WEATHER-APP_REACT/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abc0d947.css",
+    "static/js/main.42efd53a.js"
+  ]
+}
