@@ -16,28 +16,31 @@ function SearchBar({ cityName, setCityObject, setCityName, api }) {
 
   useEffect(() => {
     fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  const handleCityNameChange = (e) => {
+    setCityName(e.target.value);
+  };
 
-    return (
-      <div className="searchBar">
-        <input
-          type="text"
-          className="city-name"
-          placeholder="Enter city"
-          onChange={(e) => (cityName = e.target.value)}
-        />
-        <button
-          onClick={fetchData}
-          type="submit"
-          className="submitButton"
-          value="search"
-        >
-          <FontAwesomeIcon icon={faMagnifyingGlass} />
-        </button>
-      </div>
-    );
-  }
-
+  return (
+    <div className="searchBar">
+      <input
+        type="text"
+        className="city-name"
+        placeholder="Enter city"
+        onChange={handleCityNameChange}
+      />
+      <button
+        onClick={fetchData}
+        type="submit"
+        className="submitButton"
+        value="search"
+      >
+        <FontAwesomeIcon icon={faMagnifyingGlass} />
+      </button>
+    </div>
+  );
+}
 
 export default SearchBar;
