@@ -10,8 +10,8 @@ function App() {
   const [cityName, setCityName] = useState("Lisbon");
 
   const api = {
-    key: "a1f85cdae8da289f667d039cb5e21acc",
-    base: "http://api.openweathermap.org/data/2.5/",
+    key: process.env.REACT_APP_API_KEY,
+    base: process.env.REACT_APP_API_KEY_URL,
   };
 
   return (
